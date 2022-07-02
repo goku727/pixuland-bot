@@ -1,0 +1,29 @@
+general:
+  commandError:
+    embed:
+      color: "#FF0000"
+      title: "Error"
+      description: "Ha ocurrido un error al ejecutar el comando. Contacta con <@276736930845032448>"
+commands:
+  rules:
+    description: "Normas de TCT"
+    embed:
+      color: "#00FDFF"
+      title: "Normas"
+      description: "Las normas de esta comunidad son de sentido común. Antes de hacer/decir algo piensa: `¿Me gustaría que me lo hiciesen a mí?`\nTodas las normas están en <#733264974570323968> \nAquí os dejo las normas mas importantes:"
+      fields:
+        - name: "1º - Contenido para todas las edades"
+          value: "Sanción: `Ban permanente`"
+        - name: "2º - Queda prohibido el spam"
+          value: "Sanción: `Ban temporal`"
+  discord:
+    description: "Informacion sobre este discord"
+    embed:
+      color: "#7289da"
+      title: "Discord"
+      url: "https://discord.gg/FfUkfGK"
+  ip:
+
+  roles:
+
+  staff:
