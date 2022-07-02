@@ -6,7 +6,7 @@ general:
       description: "Ha ocurrido un error al ejecutar el comando. Contacta con <@276736930845032448>"
 commands:
   rules:
-    description: "Normas de TCT"
+    description: "Normas de Pixuland"
     embed:
       color: "#00FDFF"
       title: "Normas"
@@ -17,13 +17,35 @@ commands:
         - name: "2º - Queda prohibido el spam"
           value: "Sanción: `Ban temporal`"
   discord:
-    description: "Informacion sobre este discord"
+    description: "Información sobre este discord"
     embed:
       color: "#7289da"
       title: "Discord"
       url: "https://discord.gg/FfUkfGK"
+      description: "Trae a otros jugadores a este discord con esta invitación:\n https://discord.gg/FfUkfGK"
   ip:
-
+    description: "Información de Pixuland"
+    embed:
+      color:
+      title: "Pixuland Network"
+      description: "Network de minecraft con un Survival en la última versión\n\n**IP:** `play.pixuland.com`"
   roles:
-
+    description: "Rangos de Pixuland"
+    embed:
+      color: "#00FDFF"
+      title: "Rangos en Pixuland"
+      description: "Lista de todos los rangos en este discord."
+      fields:
+        - name: "Staff"
+          value: "<@&> → Dueño de Pixuland\n<@&> → Encargado de diseñar y crear todo lo relacionado con Pixuland\n<@&> → Administrador de Pixuland\n<@&> → Moderador de Pixuland"
+        - name: "Vips"
+          value: "<@&> → Antiguo Vip++ (15€)\n<@&> → Antiguo Vip+ (10€)\n<@&> → Usuario que aporta su granito de arena (5€)"
+        - name: "Otros"
+          value: "<@&> → Usuario que realiza videos de Pixuland en YouTube\n<@&> → Usuario que realiza directos de Pixuland en Twitch\n<@&> → Usuario cuya cuenta de minecraft y discord están vinculadas\n<@&> → Cualquier usuario de Pixuland\n"
   staff:
+    description: "Staff de Pixuland"
+    embed:
+      color: "#00FDFF"
+      title: "Staff"
+      description: "Si quieres saber el significado de cada rol, usa `/roles`.\nAquí tienes una lista de los miembros
+       del staff de Pixuland:"

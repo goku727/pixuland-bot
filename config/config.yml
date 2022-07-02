@@ -3,3 +3,5 @@ activity:
   status: "online"
   message: "a los miembos de Pixuland"
   type: "WATCHING"
+staffRoles:
+  - 759499263931187200
